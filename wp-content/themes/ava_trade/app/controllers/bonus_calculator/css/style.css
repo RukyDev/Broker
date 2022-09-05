@@ -1,0 +1,355 @@
+/*================   calculator Section  ================*/
+.calculator-box {
+  margin: 0 -0.625rem;
+  display: none;
+  text-align: center !important;
+}
+
+.calculator-box .cal-ctrl-box {
+  padding: 15px;
+  color: black !important;
+  background: #fff;
+  text-align: center !important;
+  display: inline-block;
+  clear: both;
+  margin: 0 auto;
+  width: 95%;
+  min-height: 395px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.cal-ctrl-box select::-ms-expand {
+  display: none;
+}
+
+.cal-ctrl-box input[type=number]::-webkit-inner-spin-button,
+.cal-ctrl-box input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cal-ctrl-box input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.cal-ctrl-box select {
+  background: url(../../../../assets/images/inner-pages/new-account-promo/ava-go/select-icon.png);
+  background-repeat: no-repeat;
+  filter: contrast(0.5);
+  background-position: 106px 16px;
+  -webkit-appearance: none;
+  text-align: left;
+  -ms-text-overflow: '';
+  -o-text-overflow: '';
+  text-overflow: '';
+  -moz-appearance: none;
+  text-indent: 0.01px;
+}
+
+
+.cal-ctrl-box label {
+  color: #0d304d;
+  font-weight: bold;
+}
+
+.cal-ctrl-box .sub-wrap span {
+  text-align: center;
+  color: #1187f4;
+  font-size: 18px;
+  margin-left: 4px;
+  line-height: 1.8;
+  font-weight: 700;
+}
+
+.cal-ctrl-box h3 {
+  color: #1187f4;
+  text-align: center;
+  margin: 10px 0 20px 0;
+  font-weight: 700;
+  font-size: 18px;
+  }
+.cal-ctrl-box p.cal-subTile {
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+.cal-ctrl-box .col-6 {
+  width: 50%;
+  float: left;
+}
+
+.cal-ctrl-box .form-group {
+  margin-bottom: 0;
+}
+
+.cal-ctrl-box .control-group {
+  text-align: center;
+}
+
+.cal-ctrl-box .input-area {
+  display: inline-block;
+}
+
+.cal-ctrl-box .input-area .form-control,
+.cal-ctrl-box .input-area label {
+  width: 90%;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0;
+  border-radius: 30px;
+}
+
+.cal-ctrl-box label {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.cal-ctrl-box input,
+.cal-ctrl-box select {
+  background-color: rgba(52, 36, 39, 0.1) !important;
+  color: #fff;
+  text-align: center;
+}
+
+.cal-ctrl-box select option {
+  background-color: #503d3f !important;
+}
+
+.cal-ctrl-box .err-msg {
+  height: 20px;
+  line-height: 20px;
+  width: 100%;
+  display: block;
+}
+
+.cal-ctrl-box .err-msg span {
+  font-size: 12px;
+}
+
+.cal-ctrl-box .btn-wrap {
+  margin: 5px 0 7px 0 !important;
+  text-align: center;
+}
+.cal-ctrl-box select option {
+    background-color: #fff !important;
+    border-radius: 30px !important;
+  }
+
+.cal-ctrl-box .btn.calculate {
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  padding: 18px 0;
+  max-width: 249px;
+  cursor: pointer;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 30px;
+  background: #1187f4 !important;
+  color: #fff !important;
+  display: none;
+}
+
+.cal-ctrl-box div.result-box,
+.cal-ctrl-box .result-box .result-output,
+.cal-ctrl-box .err-msg {
+  text-align: center;
+}
+
+.cal-ctrl-box .next-bonus-msg {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.cal-ctrl-box .next-bonus-msg .next-bonus-border {
+  display: inline-block;
+}
+
+.cal-ctrl-box .next-bonus-msg .lSide {
+  width: 13%;
+  float: left;
+}
+
+.cal-ctrl-box .next-bonus-msg .lSide img {
+  width: 26px;
+  height: 32px;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.cal-ctrl-box .next-bonus-msg .rSide {
+  text-align: center;
+}
+
+.cal-ctrl-box .next-bonus-msg .rSide span {
+  line-height: 16px;
+  font-size: 12px;
+  color: #0d304d;
+  font-weight: initial;
+}
+
+.cal-ctrl-box .animate-show {
+  line-height: 100%;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+
+.cal-ctrl-box .animate-show.ng-hide-add,
+.animate-show.ng-hide-remove {
+  -moz-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+.cal-ctrl-box .animate-show.ng-hide {
+  line-height: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+}
+
+.cal-ctrl-box .disclaimers {
+  font-size: 12px;
+  color: #fff;
+  margin: 20px 0 8px;
+}
+
+.cal-ctrl-box .cal-bonus-terms ul li {
+  font-size: 12px;
+  color: #fff;
+  text-align: left;
+  line-height: 1.1;
+}
+
+.dewrapper .cal-ctrl-box .next-bonus-msg .rSide span {
+  font-size: 12px !important;
+}
+
+
+#Nap .calculator-box h3 span {
+  font-weight: 600;
+}
+
+.next-bonus-border p {
+  margin-bottom: 0;
+  color: #1187f4 !important;
+  font-weight: 600;
+}
+
+#Nap .calculator-box .cal-ctrl-box {
+  padding: 15px;
+  color: rgb(17 135 244 / 1) !important;
+  background: #fff;
+  text-align: center !important;
+  display: inline-block;
+  clear: both;
+  margin: 0 auto;
+  width: 95%;
+  min-height: 250px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+#Nap .calculator-box {
+  margin: 0 auto;
+  max-width: 512px;
+  box-shadow: 0px 0px 21px #cacaca;
+  border-radius: 40px;
+}
+
+
+
+.cal-ctrl-box input,
+.cal-ctrl-box select {
+  background-color: initial !important;
+  color: #a5a5a5;
+}
+
+
+.cal-ctrl-box .next-bonus-msg svg {
+  margin: 10px;
+}
+
+
+#Nap .calculator-box #orange {
+  display: block;
+}
+
+#Nap .cal-ctrl-box .col-6.col-6-btn {
+  display: none;
+}
+
+#Nap .cal-ctrl-box .input-area label {
+  font-size: 11px;
+  margin-bottom: 8px;
+  color: #a5a5a5;
+  font-weight: 700;
+}
+
+.cal-ctrl-box .input-area {
+  max-width: 293px;
+}
+
+#Nap .cal-ctrl-box select {
+  padding-left: 35px !important;
+  font-weight: 700;
+  color: black;
+}
+
+.cal-ctrl-box .result-box {
+
+  display: inline-flex;
+}
+
+.cal-ctrl-box .result-box .result-lbl {
+  color: #0d304d;
+  font-weight: 700;
+}
+
+.cal-ctrl-box .result-box .result-lbl span {
+  margin: 3px 3px;
+  font-weight: 900;
+}
+
+.cal-ctrl-box .result-box .result-output span.input-result {
+  color: #fff !important;
+  max-width: 251px;
+  border: none;
+}
+@media only screen and (min-width: 1400px) {
+    .cal-ctrl-box .err-msg{
+        line-height: 30px;
+    }
+    .cal-ctrl-box h3 {
+        font-size: 20px;
+    }
+    #Nap .calculator-box .cal-ctrl-box{
+        
+min-height: 260px;
+    }
+    .cal-ctrl-box label{
+        font-size: 20px;
+    }
+    .cal-ctrl-box .next-bonus-msg .rSide span{
+        font-size: 14px;
+    }
+}
+
+/**RTL**/
+.rtl .cal-ctrl-box select {
+    background-position: 16px 16px;
+}
+
+.rtl #Nap .cal-ctrl-box select {
+    padding-right: 35px !important;
+}
+.rtl .cal-ctrl-box .sub-wrap span{
+    margin-right: 4px; 
+}

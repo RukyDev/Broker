@@ -1,0 +1,329 @@
+/* 
+=============================================================================== 
+Videos
+=============================================================================== 
+*/
+.bg-cover-lessons {
+	background-color: #f4f6f6;
+}
+
+.bg-cover-lessons .no-pad {
+	padding-left: 7px;
+}
+
+.bg-cover-lessons .lessons-container {
+	padding: 30px 0;
+}
+
+.bg-cover-lessons .lessons-tabs .cat-title {
+	border-bottom: 1px solid #d9dada;
+	padding: 15px 0;
+}
+
+.bg-cover-lessons .lessons-tabs .cat-title a {
+	font-size: 15px;
+	color: #5b5b5b;
+	font-weight: 300;
+	padding-left: 5px;
+}
+
+@media screen and (max-width: 1210px) {
+
+	.bg-cover-lessons .lessons-tabs.hide-for-mobile {
+		padding-left: 15px;
+	}
+	.lesson-container .lessons-tabs {
+		padding-left: 15px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+
+	.bg-cover-lessons .lessons-tabs.hide-for-mobile {
+		display: none;
+	}
+}
+
+.rtl .small-2{
+	float: right;
+	padding-right: 7px;
+	padding-left: 0.9375rem;
+}
+
+.rtl .lessons-container .large-10.medium-12{
+	float: left;
+}
+
+.rtl .btn-box{
+	text-align: right;
+}
+.rtl .btn-box.center{
+	text-align: center;
+}
+
+.rtl .single-video .small-12.medium-6.large-4{
+	float: right;
+}
+
+.bg-cover-lessons .lessons-boxes .box {
+	width: 33.33%;
+	margin-bottom: 32px;
+	display: inline-block;
+	padding: 0 16px;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 766px) {
+	.bg-cover-lessons .lessons-boxes .box {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.bg-cover-lessons .lessons-boxes .box {
+		width: 100%;
+	}
+	.bg-cover-lessons .lessons-container {
+		padding-top: 0;
+	}
+	.bg-cover-lessons .lessons-boxes .box {
+		padding: 0;
+	}
+}
+
+.bg-cover-lessons .lessons-boxes .box .box-content {
+	border: 1px solid #dcdede;
+}
+
+.bg-cover-lessons .lessons-boxes .box .box-content .image img {
+	width: 100%;
+	height: 150px;
+}
+
+.bg-cover-lessons .lessons-boxes .box .box-content .white-bg {
+	background-color: #fff;
+	padding: 15px;
+}
+
+.bg-cover-lessons .lessons-boxes .box .box-content .white-bg .cat-title {
+	padding-bottom: 7px;
+}
+
+.bg-cover-lessons .lessons-boxes .box .box-content .white-bg .cat-title a {
+	font-size: 20px;
+	color: #2882c0;
+	font-weight: 300;
+}
+
+.bg-cover-lessons .lessons-boxes .box .box-content .white-bg p {
+	font-size: 14px;
+	color: #5a5a5a;
+	word-break: break-all;
+}
+
+.bg-cover-lessons .lessons-boxes .box .box-content .white-bg .count {
+	font-size: 12px;
+	color: #5a5a5a;
+	text-transform: uppercase;
+	font-weight: 600;
+	position: relative;
+}
+
+.bg-cover-lessons .lessons-boxes .box .box-content .white-bg .count:before {
+	content: '\f101';
+	font-family: fontAwesome;
+	color: #2882c0;
+	font-size: 17px;
+	height: -4px;
+	position: absolute;
+	right: 0px;
+	bottom: -2px;
+}
+
+/* 
+=============================================================================== 
+Single-Video
+=============================================================================== 
+*/
+.videos-tabs-for-mobile {
+	display: none;
+	text-align: center;
+}
+
+.videos-tabs-for-mobile .box {
+	margin-bottom: 6px;
+	display: inline-block;
+}
+
+.videos-tabs-for-mobile .box a {
+	font-weight: 300;
+	font-size: 14px;
+	border: 1px solid;
+	padding: 3px;
+}
+
+@media screen and (max-width: 1100px) {
+	.lesson-container .lessons-tabs {
+		display: none;
+	}
+	.videos .large-custom {
+		width: 100%;
+	}
+	.lesson-container .large-custom {
+		width: 100%;
+	}
+	.bg-videos .videos .tabs-content {
+		padding-left: 0 !important;
+		margin-bottom: 20px;
+	}
+	.videos-tabs-for-mobile {
+		display: block;
+	}
+}
+
+.lesson-container .no-pad {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.lesson-container .lessons-tabs .cat-title {
+	border-bottom: 1px solid #d9dada;
+	padding: 15px 0;
+}
+
+.lesson-container .lessons-tabs .cat-title a {
+	font-size: 15px;
+	color: #5b5b5b;
+	font-weight: 300;
+	padding-left: 5px;
+}
+
+.videos .tabcontent {
+	display: none;
+}
+
+.videos .tabcontent.active {
+	display: block;
+}
+
+/* 
+=============================================================================== 
+Single Videos
+=============================================================================== 
+*/
+
+.bg-videos {
+	background-color: #f4f6f6;
+}
+
+.bg-videos .videos .tabs .main-title {
+	font-size: 18px;
+	color: #5b5b5b;
+	padding: 15px;
+}
+
+.bg-videos .videos .tabs .tabs-title {
+	padding: 15px 15px 25px 0;
+	cursor: pointer;
+}
+
+.bg-videos .videos .tabs .tabs-title.is-active {
+	background-color: #e1e1e1;
+}
+
+.bg-videos .videos .tabs .tabs-title .wrapper-image .image {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 110px;
+}
+
+.bg-videos .videos .tabs .tabs-title .text a {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 25px;
+}
+
+.bg-videos .videos .tabs .tabs-title .text p {
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 0;
+}
+
+.bg-videos .videos .tabs-content {
+	background: transparent;
+	border: none;
+	padding-left: 0px;
+}
+.videos .small-12.columns.hide-for-mobile.small-custom {
+    padding: 0;
+}
+
+.videos .widescreen.flex-video {
+	background: black;
+}
+@media screen and (min-width: 1200px) {
+	.videos .widescreen.flex-video {
+		height: 500px;
+	}
+}
+
+.bg-videos .videos .tabs-content .title {
+	font-size: 16px;
+	color: #2882c0;
+	font-weight: 600;
+	padding-bottom: 17px;
+	margin-top: 15px;
+}
+/*
+.bg-videos .videos .tabs-content .flex-video{
+	padding:55%;
+}
+*/
+.bg-videos .videos .tabs-content .text {
+	font-size: 14px;
+	color: #5b5b5b;
+}
+
+.bg-videos .videos .tabs-content .short-description {
+	padding-bottom: 20px;
+}
+
+.single-video .tabs-content {
+	padding-bottom: 20px;
+}
+
+.single-video .tabs-title-container .tabs {
+	background: transparent;
+	border-top: 0;
+}
+
+
+.single-video .tabs-title-container .tabs-title {
+	background-color: #e1e1e1;
+	margin-bottom: 30px;
+	height: 180px;
+}
+
+.single-video .tabs-title-container .main-title {
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.single-video .tabs-title-container .main-title p{
+	line-height: 1.9;
+    margin: 10px 0;
+}
+.singleVideo .lazy-iframe{
+	height: 170px;
+}
+@media screen and (min-width: 768px) {
+	.singleVideo .lazy-iframe{
+		height: 350px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.singleVideo .lazy-iframe{
+		height: 520px;
+	}
+}

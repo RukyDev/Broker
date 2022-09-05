@@ -1,0 +1,578 @@
+.about-page .aboutUs-section p {
+	color: #343434;
+}
+
+@media screen and (max-width: 950px) {
+	.about-page .aboutUs-section p {
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.about-page .aboutUs-section p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.about-page .aboutUs-section .icons {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 921px) {
+	.about-page .address-box {
+		width: 100%;
+	}
+}
+
+.rtl .about-page .aboutUs-section h3 {
+	font-size: 32px;
+}
+
+/*
+.aboutUs-section h3 {
+    color: #343434;
+    padding-bottom: 12px;
+}
+@media screen and (max-width: 950px) {
+    .aboutUs-section h3 {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .aboutUs-section .hide-on-medium.wpb_column.vc_column_container {
+        display: none;
+    }
+}
+.aboutUs-section .icons .first-row {
+    margin-bottom: 80px;
+}
+@media screen and (max-width: 640px) {
+    .aboutUs-section .icons .first-row {
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .aboutUs-section .icons .first-row {
+        margin-bottom: 15px;
+    }
+}
+.aboutUs-section .icons .show-on-medium {
+    display: none;
+}
+@media screen and (max-width: 950px) {
+    .aboutUs-section .icons .show-on-medium {
+        display: block;
+    }
+}
+@media screen and (max-width: 460px) {
+    .aboutUs-section .icons .box img {
+        width: 25px;
+        margin-right: 10px;
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 349px) {
+    .aboutUs-section .icons .box img {
+        width: 17px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .aboutUs-section .icons .box p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 349px) {
+    .aboutUs-section .icons .box p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .aboutUs-section .icons .box.box-3 img {
+        width: 30px;
+    }
+}
+@media screen and (max-width: 460px) and (max-width: 349px) {
+    .aboutUs-section .icons .box.box-3 img {
+        width: 18px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .aboutUs-section .icons .box.box-4 img {
+        width: 30px;
+    }
+}
+@media screen and (max-width: 460px) and (max-width: 349px) {
+    .aboutUs-section .icons .box.box-4 img {
+        width: 17px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .aboutUs-section .hide-image.wpb_column.vc_column_container {
+        display: none;
+    }
+}
+.aboutUs-section .vc_row.wpb_row.row.vc_row-fluid.margin-right-row {
+    margin-right: 170px;
+}
+@media screen and (max-width: 1024px) {
+    .aboutUs-section .vc_row.wpb_row.row.vc_row-fluid.margin-right-row {
+        margin-right: 0;
+    }
+}
+.about_row1 {
+    display: none;
+}
+.about_row1 p {
+    color: #343434;
+    font-size: 14px;
+}
+@media screen and (max-width: 640px) {
+    .about_row1 {
+        display: block;
+    }
+}
+.about_row1 .border .wpb_content_element {
+    margin-bottom: 0;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 30px 0;
+}
+.about-margin {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+@media screen and (max-width: 1024px) {
+    .about-margin {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .about-margin {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+}
+*/
+
+/* 
+=============================================================================== 
+Banner About
+=============================================================================== 
+*/
+
+.about-page .about_banner {
+	background-color: #f9f9fa;
+}
+
+.about-page .about-image {
+	padding-top: 90px;
+	padding-bottom: 57px;
+	background-image: url("../../../assets/images/banner-about.jpg");
+	background-size: cover;
+	height: 370px;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+	.about-page .about-image {
+		background-image: none;
+		background-color: #f9f9fa;
+		padding-top: 0;
+		padding-bottom: 50px;
+		height: auto;
+	}
+}
+
+.about-page .about_banner h3 {
+	font-size: 24px;
+	font-weight: 400;
+	color: rgb(52, 52, 52);
+	
+	line-height: 33px;
+	padding-bottom: 11px;
+}
+
+.about-page .about_banner p {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	color: rgb(52, 52, 52);
+	
+}
+
+@media screen and (max-width: 1024px) {
+	.about-page .about_banner {
+		background-image: none;
+		background-color: #f9f9fa;
+		padding-top: 50px;
+		padding-bottom: 0;
+	}
+}
+
+/* 
+=============================================================================== 
+New About Page
+=============================================================================== 
+*/
+
+.about-page .about-row-2 {
+	padding-top: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+	.about-page .about-row-1 .about_banner br {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.about-page .about-row-1 .about_banner h3 {
+		font-size: 18px;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		line-height: 26px;
+	}
+	.about-page .about-row-1 .about_banner {
+		padding-top: 20px;
+	}
+}
+
+.about-page .about-row-2 .simple-text {
+	padding-top: 16px;
+	padding-left: 38px;
+}
+
+.about-page .about-row-2 .simple-text p {
+	line-height: 26px;
+	font-size: 18px;
+}
+
+.about-page .about-row-2 .icons .box {
+	padding-bottom: 85px;
+	position: relative;
+}
+
+.about-page .about-row-2 .icons .box:before {
+	content: '';
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+.about-page .about-row-2 .icons .box_1 {
+	padding-left: 66px;
+}
+
+.about-page .about-row-2 .icons .box_1:before {
+	background-image: url(../../../assets/images/about_box_1.png);
+	height: 46px;
+	width: 38px;
+	left: 0px;
+}
+
+.about-page .about-row-2 .icons .box_2 {
+	padding-left: 66px;
+}
+
+.about-page .about-row-2 .icons .box_2:before {
+	background-image: url(../../../assets/images/about_box_2.png);
+	width: 43px;
+	height: 51px;
+	left: 0px;
+}
+
+.about-page .about-row-2 .icons .box_3 {
+	padding-left: 66px;
+}
+
+.about-page .about-row-2 .icons .box_3:before {
+	background-image: url(../../../assets/images/about_box_3.png);
+	width: 52px;
+	height: 41px;
+	left: 0px;
+}
+
+.about-page .about-row-2 .icons .box_4 {
+	padding-left: 66px;
+}
+
+.about-page .about-row-2 .icons .box_4:before {
+	background-image: url(../../../assets/images/about_box_4.png);
+	width: 52px;
+	height: 44px;
+	left: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+	.about-page .about-row-2 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.about-page .about-row-2 .icons .box {
+		padding-bottom: 50px;
+	}
+	.about-page .about-row-2 .simple-text {
+		padding-left: 0;
+	}
+}
+
+.about-page .about-row-3 h3 {
+	padding-bottom: 15px;
+	padding-top: 43px;
+}
+
+.about-page .about-row-3 p {
+	line-height: 26px;
+	font-size: 18px;
+}
+
+.about-page .about-row-3 {
+	padding-bottom: 35px;
+}
+
+@media screen and (max-width: 1023px) {
+	.about-page .about-row-3 img {
+		display: none;
+	}
+	.about-page .section-border {
+		padding-top: 0;
+	}
+	.about-page .about-row-3 h3 {
+		padding-top: 0;
+	}
+}
+
+.about-page .section-border {
+	border-top: 1px solid #c8c8c8;
+	padding-top: 46px;
+}
+
+.about-page .about-row-4 {
+	background-color: #f4f6f6;
+	padding: 30px 0 32px 0;
+}
+
+.about-page .about-row-4 .about-border-bottom {
+	border-bottom: 1px solid #c8c8c8;
+	padding-bottom: 25px;
+}
+
+.about-page .about-row-4 h3 {
+	padding-bottom: 16px;
+}
+
+.about-page .about-row-4 p {
+	line-height: 26px;
+	font-size: 18px;
+}
+
+.about-page .about-row-4 a {
+	font-weight: 700;
+}
+
+.about-page .about-row-5 {
+	background-color: #f4f6f6;
+}
+
+.about-page .about-row-5 h3 {
+	padding-bottom: 20px;
+}
+
+.about-page .office_block {
+	background: #fff;
+	padding: 15px;
+	border-radius: 3px;
+	border: 1px solid #dce6e8;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+	min-height: 185px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.about-page .office_block address {
+	font-style: normal;
+}
+
+.about-page .office_block .box {
+	margin-left: 25px;
+}
+
+.about-page .office_block:before {
+	content: "\f041";
+	font: normal normal normal 25px/1 FontAwesome;
+	position: absolute;
+	color: #2882c0;
+	top: 20px;
+}
+
+.about-page .office_block h5 {
+	font-size: 1.25rem;
+}
+
+.about-page .office_block .wpb_wrapper {
+	margin-left: 25px;
+}
+
+/* 
+=============================================================================== 
+RTL
+=============================================================================== 
+*/
+
+.rtl .about-page .about-row-2 .icons .box_1,
+.rtl .about-page .about-row-2 .icons .box_2,
+.rtl .about-page .about-row-2 .icons .box_3,
+.rtl .about-page .about-row-2 .icons .box_4 {
+	padding-left: 0;
+	padding-right: 66px;
+	font-size: 18px;
+}
+
+.rtl .about-page .about-row-2 .icons .box_1:before,
+.rtl .about-page .about-row-2 .icons .box_2:before,
+.rtl .about-page .about-row-2 .icons .box_3:before,
+.rtl .about-page .about-row-2 .icons .box_4:before {
+	left: auto;
+	right: 0;
+}
+
+.rtl .about-page .about_banner {
+	background-image: url("../../../assets/images/banner-about-ar.jpg");
+	padding-top: 90px;
+	padding-bottom: 57px;
+	background-size: cover;
+	height: 370px;
+	background-position: center left;
+}
+
+@media screen and (max-width: 1024px) {
+	.rtl .about-page .about_banner {
+		background-image: none;
+		background-color: #f9f9fa;
+		padding-top: 0;
+		padding-bottom: 50px;
+		height: auto;
+	}
+}
+
+.rtl .about-page .about_banner h3 {
+	line-height: 39px;
+	font-weight: 600;
+	padding-bottom: 25px;
+}
+
+.rtl .about-page .about_banner p {
+	line-height: 37px;
+}
+
+.rtl .about-page .about-row-2 .simple-text p {
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.rtl .about-page .about-row-3 p {
+	line-height: 30px;
+}
+
+.rtl .about-page .about-row-3 h3 {
+	font-size: 32px;
+	padding-bottom: 18px;
+}
+
+.rtl .about-page .about-border-bottom h2 {
+	padding-bottom: 20px;
+}
+
+.rtl .about-page .about-row-3 .wrapper-img {
+	text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+	.rtl .about-page .about-row-3 p br {
+		display: none;
+	}
+	.rtl .about-page .about_banner {
+		padding-bottom: 10px;
+	}
+	.rtl .about-page .about-row-2 {
+		padding-top: 10px;
+		padding-bottom: 0;
+	}
+}
+
+
+/* 
+=============================================================================== 
+Canada about page
+=============================================================================== 
+*/
+
+		
+		.En-cawrapper .about-image,
+		.fr-cawrapper .about-image{
+			background-image: none;
+			padding-top: 30px;
+			padding-bottom: 0; 
+		}
+		.En-cawrapper .about_banner,
+		.fr-cawrapper .about_banner{
+			background-image: url(../../../assets/images/banner-about.jpg);
+			background-position: 50% top;
+			background-repeat: no-repeat;
+			padding-bottom: 20px;
+		}
+		
+		@media screen and (max-width: 1024px) {
+			 .En-cawrapper .about_banner,
+			 .fr-cawrapper .about_banner {
+				background-image: none;
+				background-color: #f9f9fa;
+				padding-top: 0;
+				padding-bottom: 50px;
+				height: auto;
+			 }
+			 
+		.En-cawrapper .about-image,
+		.fr-cawrapper .about-image{
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		}
+		
+		.En-cawrapper .about_banner p,
+		.fr-cawrapper .about_banner p {
+			font-size: 16px;
+			font-weight: 300;
+		}
+		.En-cawrapper .about-row-3 .about-border-bottom h2,
+		.fr-cawrapper .about-row-3 .about-border-bottom h2{
+			padding-bottom: 40px;
+		}
+		
+		.En-cawrapper .about-image {
+			background-image: none;
+			padding-top: 80px;
+		}
+
+		.En-cawrapper .about_banner {
+			background-image: url(../../../assets/images/banner-about.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		@media screen and (max-width: 1024px) {
+			.about-image,
+			.En-cawrapper .about_banner {
+				background-image: none;
+				background-color: #f9f9fa;
+				padding-top: 0;
+				padding-bottom: 50px;
+				height: auto;
+			}
+			.En-cawrapper .about-image {
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+		}

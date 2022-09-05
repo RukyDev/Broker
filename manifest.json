@@ -1,0 +1,7 @@
+{
+  "name": "AvaTrade",
+  "short_name": "AvaTrade",
+  "gcm_sender_id": "134527616978",
+  "display": "standalone",
+  "gcm_user_visible_only": true
+}

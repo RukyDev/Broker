@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="43" viewBox="0 0 40 43">
+  <g id="Group_4595" data-name="Group 4595" transform="translate(-229 -271)">
+    <circle id="Ellipse_50" data-name="Ellipse 50" cx="20" cy="20" r="20" transform="translate(229 271)" fill="#1187f4"/>
+    <g id="chat" transform="translate(238.285 280.285)">
+      <g id="chat_icon" data-name="chat icon">
+        <path id="Path_4673" data-name="Path 4673" d="M154.5,369.977l-4.091-1.422a10.721,10.721,0,1,1,2.88-2.918Z" transform="translate(-133.648 -348.994)" fill="none" stroke="#fff" stroke-width="1"/>
+        <g id="Group_4594" data-name="Group 4594" transform="translate(4.32 9.608)">
+          <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="1.107" cy="1.107" rx="1.107" ry="1.107" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <ellipse id="Ellipse_12" data-name="Ellipse 12" cx="1.107" cy="1.107" rx="1.107" ry="1.107" transform="translate(5.289 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <ellipse id="Ellipse_13" data-name="Ellipse 13" cx="1.107" cy="1.107" rx="1.107" ry="1.107" transform="translate(10.577 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+    <g id="Ellipse_51" data-name="Ellipse 51" transform="translate(258 303)" fill="#12e677" stroke="#fff" stroke-width="1">
+      <circle cx="5" cy="5" r="5" stroke="none"/>
+      <circle cx="5" cy="5" r="5.5" fill="none"/>
+    </g>
+  </g>
+</svg>
